@@ -1,5 +1,5 @@
 ﻿// Вывести квадрат числа
 
-int val = 5;
+int val = 6;
 int res = val * val;
 Console.WriteLine(res);
