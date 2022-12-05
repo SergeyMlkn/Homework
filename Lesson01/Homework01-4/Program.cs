@@ -5,10 +5,19 @@
 // найти остаток деления ч1 на ч2
 // проверить (если остаток не равен 0, то показать)
 
+Console.WriteLine("start");
 
+int firstNumber = 25;
+int secondNumber = 5;
 
+int remainder = firstNumber % secondNumber;
 
-
-
-
-Console.WriteLine("Hello, World!");
+if (remainder != 0)
+{
+    Console.WriteLine(remainder);
+}
+else
+{
+    Console.WriteLine("КРАТНО");
+}
+Console.WriteLine("end");
